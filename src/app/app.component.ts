@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'course-project';
+  menuOptionSelected = 'recipe';
+
+  displaySection(menu: string) {
+    this.menuOptionSelected = menu;
+  }
+
 }
